@@ -23,7 +23,7 @@ export default function BlogContent() {
       <Header />
 
       <nav aria-label="Breadcrumb" className="border-b border-border bg-muted/30">
-        <div className="container mx-auto px-4 py-3">
+        <div className="container py-3">
           <ol className="flex items-center gap-2 text-sm text-muted-foreground">
             <li>
               <Link href="/" className="hover:text-foreground transition-colors">Home</Link>
@@ -35,7 +35,7 @@ export default function BlogContent() {
       </nav>
 
       <section className="bg-gradient-hero py-16 md:py-24">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container text-center">
           <motion.div {...fadeUp}>
             <h1 className="font-heading text-4xl md:text-6xl font-extrabold text-primary-foreground mb-5 tracking-tight">
               Blog & Gaming Guides
@@ -48,7 +48,7 @@ export default function BlogContent() {
         </div>
       </section>
 
-      <main role="main" className="container mx-auto px-4 py-14">
+      <main role="main" className="container py-14">
         {featuredPost && (
           <section aria-labelledby="featured-post-heading" className="mb-14">
             <motion.article {...fadeUp} className="bg-card border border-border rounded-3xl overflow-hidden shadow-card hover:shadow-lg transition-shadow">

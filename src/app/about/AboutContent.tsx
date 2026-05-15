@@ -50,7 +50,7 @@ export default function AboutContent() {
       <Header />
 
       <nav aria-label="Breadcrumb" className="border-b border-border bg-muted/30">
-        <div className="container mx-auto px-4 py-3">
+        <div className="container py-3">
           <ol className="flex items-center gap-2 text-sm text-muted-foreground">
             <li>
               <Link href="/" className="hover:text-foreground transition-colors">
@@ -64,7 +64,7 @@ export default function AboutContent() {
       </nav>
 
       <section className="bg-gradient-hero py-16 md:py-24">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container text-center">
           <motion.div {...fadeUp}>
             <h1 className="font-heading text-4xl md:text-6xl font-extrabold text-primary-foreground mb-5 tracking-tight">
               About Realgameapps
@@ -77,7 +77,7 @@ export default function AboutContent() {
         </div>
       </section>
 
-      <main role="main" className="container mx-auto px-4 py-14">
+      <main role="main" className="container py-14">
         <section aria-labelledby="mission-vision-heading" className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
           <motion.article {...fadeUp} className="bg-card border border-border rounded-3xl p-8 shadow-card">
             <div className="flex items-center gap-3 mb-4">
